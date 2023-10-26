@@ -1,0 +1,55 @@
+/* Estilos para el cuerpo de la página */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #007BFF; /* Cambia el color de fondo de la página según tu preferencia */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border-radius: 10px;
+}
+
+/* Estilos para la barra de navegación */
+nav {
+    background-color: #007BFF; /* Color de fondo de la barra de navegación */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Estilos para la lista de enlaces */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Estilos para los elementos de la lista */
+li {
+    margin-bottom: 10px;
+}
+
+/* Estilos para los enlaces */
+a {
+    text-decoration: none;
+    color: #fff; /* Color de texto para los enlaces */
+    font-weight: bold;
+    font-size: 31px;
+    display: block;
+    transition: color 0.3s; /* Efecto de transición suave */
+    padding: 10px; /* Espacio alrededor del enlace para hacerlo más grande */
+    border-radius: 10px; /* Bordes redondeados para cada enlace */
+}
+
+/* Colores de fondo para cada enlace */
+a:nth-child(odd) {
+    background-color: #FF5733; /* Fondo para enlaces impares */
+}
+
+a:nth-child(even) {
+    background-color: #33FF73; /* Fondo para enlaces pares */
+}
+
+/* Cambiar el color del enlace al pasar el mouse sobre él */
+a:hover {
+    color: #0056b3; /* Cambia el color al pasar el mouse */
+}
