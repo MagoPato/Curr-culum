@@ -1,4 +1,4 @@
-/* Estilos para el cuerpo de la página */
+/* Estilos para la cuerpo de la página */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -47,32 +47,95 @@ header {
 
 /* Estilos para el título */
 h1 {
-    font-size: 36px;
+    font-size: 45px;
+    text-align: center;
 }
 
-/* Estilos para las secciones de habilidades */
+/* Estilos para las secciones de proyectos */
 section {
     margin: 20px;
     padding: 20px;
     background-color: #fff; /* Color de fondo de las secciones */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+    color: black;
+    overflow: auto; /* Agregamos overflow auto para hacer que las imágenes salgan del lado si caben de ancho en la pantalla */
+}
+
+#sub{
+    background-color: #007BFF;
+    color: white;
 }
 
 /* Estilos para los títulos de sección */
 h2 {
-    font-size: 24px;
+    font-size: 35px;
+    text-align: center;
 }
 
-/* Estilos para la lista de habilidades */
-ul.skill-list {
+/* Estilos para la lista de proyectos */
+ul.project-list {
     list-style-type: none;
     padding: 0;
 }
 
-/* Estilos para los elementos de la lista de habilidades */
-ul.skill-list li {
+/* Estilos para los elementos de la lista de proyectos */
+ul.project-list li {
     margin-bottom: 10px;
+}
+
+/* Estilos para secciones con una sola imagen */
+section.single-image img {
+    max-width: 40%; /* Tamaño máximo de la imagen */
+    display: block;
+    margin: 0 auto; /* Centra horizontalmente */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+/* Estilos para secciones con dos imágenes */
+section.two-images img {
+    max-width: 30%; /* Tamaño máximo de la imagen */
+    display: inline-block;
+    margin: 1% 1%; /* Espacio horizontal entre las imágenes */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+
+section.two-images img:hover , section.single-image img:hover {
+    transform: scale(1.05);
+}
+
+/* Estilos para los títulos de reconocimiento */
+ul.project-list h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilos para los párrafos de proyectos */
+ul.project-list p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Estilos para el enlace de más información del Proyecto 1 */
+a.more-info-link {
+    text-align: center;
+    display: inline-block;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+a.more-info-link:hover {
+    background-color: #0056b3;
+    align-items: center;
 }
 
 /* Estilos para el pie de página */
@@ -104,4 +167,3 @@ footer img:hover{
     margin: auto;
     padding: auto;
 }
-
