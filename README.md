@@ -2,6 +2,16 @@
 
 Este es mi currículum vitae en formato web. Contiene detalles sobre mi experiencia laboral, habilidades, intereses y enlaces a mis redes sociales.
 
+## Acerca del Proyecto
+
+Este proyecto es mi currículum vitae en formato web, diseñado y desarrollado por David Patricio Escamilla Marquez. Con 21 años de edad, he creado esta página web utilizando tecnologías web estándar, específicamente HTML y CSS, para presentar mi información profesional y personal de una manera interactiva y moderna.
+
+## Tecnologías Utilizadas
+
+- **Lenguajes de Marcado (HTML):** He utilizado HTML para estructurar la información de mi currículum y definir su contenido, asegurando una presentación coherente y accesible.
+
+- **Hojas de Estilo en Cascada (CSS):** CSS ha sido fundamental para estilizar la página, creando un diseño atractivo y garantizando una experiencia visualmente agradable para los visitantes.
+
 ## Experiencia Laboral
 
 - Técnico en reparación de equipos y instalación de software
